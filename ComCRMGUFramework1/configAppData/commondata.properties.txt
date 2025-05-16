@@ -1,4 +1,0 @@
-browser chrome
-url http://49.249.28.218:8888/
-usn admin
-psw admin
