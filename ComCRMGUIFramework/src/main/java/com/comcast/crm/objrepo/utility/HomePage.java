@@ -13,6 +13,12 @@ public class HomePage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	@FindBy(linkText="Product")
+	private WebElement Prdlink;
+	
+	public WebElement getPrdlink() {
+		return Prdlink;
+	}
 	@FindBy(xpath="//input[@class='searchBox']")
 	private WebElement searchTextField;
 	@FindBy(xpath="//input[@class='searchBtn']")
